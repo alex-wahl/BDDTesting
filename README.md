@@ -1,5 +1,5 @@
 # BDDTesting
-##Setup Behat, Selenium, Mink
+## Setup Behat, Selenium, Mink
 
 Hello, this repo is a basic worked setup of behat which is used mink, selenium and behat to execute the BDD testing. The example of a test case is a testing of the head on the wiki page.
 
