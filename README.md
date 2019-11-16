@@ -1,5 +1,5 @@
 # BDDTesting
-##Setup Behat, Selenium, Mink
+## Setup Behat, Selenium, Mink
 
 Hello, this repo is a basic worked setup of behat which is used mink, selenium and behat to execute the BDD testing. The example of a test case is a testing of the head on the wiki page.
 
@@ -8,12 +8,12 @@ This code contains also the webdriver-manager which will help you to manage your
 ./bin/manager start
 ```
 P.S. **Here are available commands:**
-  clean   Delete contents of the installation directory
-  help    Displays help for a command
-  list    Lists commands
-  start   Start Selenium Server
-  status  List the current available drivers
-  update  Download or update Selenium Server and drivers
+* clean   Delete contents of the installation directory
+* help    Displays help for a command
+* list    Lists commands
+* start   Start Selenium Server
+* status  List the current available drivers
+* update  Download or update Selenium Server and drivers
 
 after that, you can execute the command 
 ```bash
@@ -24,7 +24,7 @@ that command starts the execution of your test from the feature file. In this ca
 All feature files should be created in the folder features.
 The code which will be executed should be written in *features/bootstrap.*
 
-The command:
+**The command:**
 ```bash
 ./bin/behat --append-snippets
 ```
