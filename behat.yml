@@ -1,0 +1,9 @@
+default:
+  extensions:
+    Behat\MinkExtension:
+      base_url: "https://en.wikipedia.org/"
+      sessions:
+        default:
+          selenium2:
+            capabilities: {"browserName": "chrome", "browser": "chrome", 'chrome': {'switches': ['--disable-gpu', '--window-size=1280,1600']}}
+            wd_host: http://localhost:4444/wd/hub
