@@ -4,6 +4,9 @@
 Hello, this repo is a basic worked setup of behat which is used mink, selenium and behat to execute the BDD testing. The example of a test case is a testing of the head on the wiki page.
 
 This code contains also the webdriver-manager which will help you to manage your testing. For example, before you will start the execution your testing you should write the command in the console to start the selenium server
+
+**Note:** you should start below commands from the root folder BDDTesting
+
 ```bash
 ./bin/manager start
 ```
